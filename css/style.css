@@ -13,7 +13,6 @@
   src: url('../fonts/partybusiness.ttf') format('truetype');
 }
 
-
 body {
   background-repeat: repeat-y;
   font-family: 'main';
@@ -61,8 +60,7 @@ h3.inline {
   display: inline-table;
   padding-bottom: 20px;
   padding-top: 10px;
-
-  }
+}
 
 h3.elvish {
   /*UJ*/
@@ -73,7 +71,6 @@ h3.elvish {
   vertical-align: 30%;
   padding-bottom: 5px;
   padding-top: 5px;
-
 }
 
 hr {
@@ -115,8 +112,6 @@ td, tr {
 textarea.form-control {
   height: 120px;
 }
-
-
 
 .nopadding {
   padding: 0 !important;
@@ -189,7 +184,6 @@ a:hover, a:active {
   text-decoration: underline !important;
 }
 
-
 .unround-top-corners {
   -webkit-border-top-left-radius: 0px;
   -webkit-border-top-right-radius: 0px;
@@ -202,61 +196,66 @@ a:hover, a:active {
 
 
 /* Character wanted dead CSS*/
+
 .widget__overlay {
-margin: auto;
-background: rgba(255, 255, 255, 0);
-position: absolute;
-left: 0;
-right:0;
-top: 0;
-bottom: 0;
--webkit-transition: all 0.5s ease-in-out;
--moz-transition: all 0.5s ease-in-out;
--o-transition: all 0.5s ease-in-out;
-transition: all 0.5s ease-in-out;
+  margin: auto;
+  background: rgba(255, 255, 255, 0);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
-.widget__overlay:hover{
-background: rgba(0, 0, 0, 0.6);
+
+.widget__overlay:hover {
+  background: rgba(0, 0, 0, 0.6);
 }
+
 .widget__overlay:hover .widget__reward {
-display: none;
+  display: none;
 }
 
 .display_none {
-display: none;
+  display: none;
 }
 
 .widget__overlay:hover .gandalf {
-display: none;
-bottom: 70%;
-font-size: 2em;
-color: #fff;
+  display: none;
+  bottom: 70%;
+  font-size: 2em;
+  color: #fff;
 }
 
 .widget__overlay:hover .gandalf2 {
-display: block;
-bottom: 30%;
-font-size: 2em;
-color: #fff;
+  display: block;
+  bottom: 30%;
+  font-size: 2em;
+  color: #fff;
 }
 
 .widget__reward {
-margin: auto;
-width: 80%;
-position: absolute;
-left: 0;
-right:0;
-top: 6%;
-padding: 16px;
-text-align: center;
-background-color: rgba(255, 255, 255, 0.6);
-border-radius: 6px;
-font-size: 2em;
+  margin: auto;
+  width: 80%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 6%;
+  padding: 16px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 6px;
+  font-size: 2em;
 }
 
 .widget__reward span {
-color: #FF6000;
+  color: #FF6000;
 }
+
+
 /*.story {
 margin-top: 30px;
 font-size: 25px;
@@ -273,7 +272,7 @@ width: 300px;
   margin: auto;
   position: absolute;
   left: 0;
-  right:0;
+  right: 0;
   bottom: 10%;
   text-align: center;
   font-size: 4em;
@@ -282,20 +281,19 @@ width: 300px;
 }
 
 .gandalf {
-margin: auto;
-position: absolute;
-left: 0;
-right:0;
-bottom: 30%;
-text-align: center;
-font-size: 4em;
-color: #fff;
-font-weight: 400;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 30%;
+  text-align: center;
+  font-size: 4em;
+  color: #fff;
+  font-weight: 400;
 }
 
-
 .dead {
-  text-decoration : line-through;
+  text-decoration: line-through;
   text-decoration-color: #FF6000;
 }
 
@@ -320,90 +318,111 @@ textarea.form-control {
 }
 
 .panel-default {
-    border-color: #000000;
+  border-color: #000000;
 }
-
 
 
 /* Classe principale de la barre de navigation */
+
 .navbar-default {
-/* Couleur de fond de la barre de navigation */
-background-color: #F8F8F8;
-border-color: #FF6000;
+  /* Couleur de fond de la barre de navigation */
+  background-color: #F8F8F8;
+  border-color: #FF6000;
 }
+
+
 /* Couleur des titres affichés dans la barre */
+
 .navbar-default .navbar-brand {
-color: #FF6000;
+  color: #FF6000;
 }
+
+
 /* Couleur utilisée lors du passage de la souris sur un titre de la barre */
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-color: #5E5E5E;
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #5E5E5E;
 }
+
+
 /* Couleur utilisée pour les liens */
-.navbar-default .navbar-nav > li > a {
-color: #FF6000;
+
+.navbar-default .navbar-nav>li>a {
+  color: #FF6000;
 }
+
+
 /* Couleur utilisée pour les liens lorsque la souris passe dessus */
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-color: #333;
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  color: #333;
 }
+
+
 /* Couleur utilisée pour le lien actif (celui qui est affiché sur la page) */
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-color: #FFF;
-background-color: #FF6000;
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: #FFF;
+  background-color: #FF6000;
 }
+
+
 /* Couleur utilisée pour un menu dépliant lorsqu'il est ouvert */
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-color: #FFF;
-background-color: #D5D5D5;
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+  color: #FFF;
+  background-color: #D5D5D5;
 }
+
+
 /* Caret */
-.navbar-default .navbar-nav > .dropdown > a .caret {
-border-top-color: #FF6000;
-border-bottom-color: #FF6000;
+
+.navbar-default .navbar-nav>.dropdown>a .caret {
+  border-top-color: #FF6000;
+  border-bottom-color: #FF6000;
 }
-.navbar-default .navbar-nav > .dropdown > a:hover .caret,
-.navbar-default .navbar-nav > .dropdown > a:focus .caret {
-border-top-color: #333;
-border-bottom-color: #333;
+
+.navbar-default .navbar-nav>.dropdown>a:hover .caret, .navbar-default .navbar-nav>.dropdown>a:focus .caret {
+  border-top-color: #333;
+  border-bottom-color: #333;
 }
-.navbar-default .navbar-nav > .open > a .caret,
-.navbar-default .navbar-nav > .open > a:hover .caret,
-.navbar-default .navbar-nav > .open > a:focus .caret {
-border-top-color: #FFF;
-border-bottom-color: #FFF;
+
+.navbar-default .navbar-nav>.open>a .caret, .navbar-default .navbar-nav>.open>a:hover .caret, .navbar-default .navbar-nav>.open>a:focus .caret {
+  border-top-color: #FFF;
+  border-bottom-color: #FFF;
 }
+
+
 /* Version mobile, le menu devient une icône qui déroule une liste avec le menu en vertical */
+
 .navbar-default .navbar-toggle {
-border-color: #DDD;
+  border-color: #DDD;
 }
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-background-color: #DDD;
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #DDD;
 }
+
 .navbar-default .navbar-toggle .icon-bar {
-background-color: #CCC;
+  background-color: #CCC;
 }
+
 @media (max-width: 767px) {
-.navbar-default .navbar-nav .open .dropdown-menu > li > a {
-color: #FF6000;
-}
-.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-color: #333;
-}
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #FF6000;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+    color: #333;
+  }
 }
 
 .skewbutton {
--ms-transform: skewX(-20deg); /* IE 9 */
--webkit-transform: skewX(-20deg); /* Safari */
-transform: skewX(-20deg); /* Standard syntax */
-padding-top: 15px;
-padding-bottom: 15px;
+  -ms-transform: skewX(-20deg);
+  /* IE 9 */
+  -webkit-transform: skewX(-20deg);
+  /* Safari */
+  transform: skewX(-20deg);
+  /* Standard syntax */
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
