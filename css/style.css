@@ -426,3 +426,9 @@ textarea.form-control {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+.moreinfo {
+    padding-top: 5vh;
+    font-size: 2vh;
+    text-align: center;
+    line-height: 6vh;
