@@ -167,11 +167,11 @@ div {
 }
 
 .bg-dark {
-  background-image: url("../img/_bg_dark.jpg");
+  background-image: url("../img/bg_dark.jpg");
 }
 
 .bg-light {
-  background-image: url("../img/_bg_light.png");
+  background-image: url("../img/bg_light.png");
 }
 
 a {
