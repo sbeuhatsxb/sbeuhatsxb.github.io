@@ -17,7 +17,7 @@ body {
   background-repeat: repeat-y;
   font-family: 'main';
   font-size: 13px;
-  /*background-color: green;*/
+  background-color: #333;
 }
 
 p {
@@ -105,7 +105,7 @@ td, tr {
 
 #footer-content {
   min-height: 100px;
-  background-color: #FF6000;
+  background-image: url("../img/bg_dark.jpg");
   color: white;
 }
 
