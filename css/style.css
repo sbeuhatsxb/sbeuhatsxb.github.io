@@ -14,10 +14,10 @@
 }
 
 body {
+  background-image: url("../img/bg_dark.jpg");
   background-repeat: repeat-y;
   font-family: 'main';
   font-size: 13px;
-  background-image: url("../img/bg_dark.jpg");
 }
 
 p {
